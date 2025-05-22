@@ -23,6 +23,15 @@ body {
   font-size: 20px;
 }
 
+.tarjeta-de-pokemon:hover {
+  background-color: #5D8BF4;
+
+}
+
+.boton-de-ataque:hover {
+  background-color: #5D8BF4;
+}
+
 .tarjetas, .tarjetas-ataques {
   display: flex;
   gap: 10px;
