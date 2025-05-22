@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>POKEMON!</title>
+        <script src="./js/pokemon.js"></script>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <section id="seleccionar-pokemon">
+            <h1 class="titulo">Pokemon</h1>
+
+            <h2 class="subtitulo">Elige tu pokemon:</h2>
+
+            <div class="tarjetas">
+                <input type="radio" name="pokemon" id="dragonite" />
+                <label class="tarjeta-de-pokemon" for="dragonite">
+                    <p>Dragonite</p>
+                    <img src="./assets/Dragonite.png" alt="Dragonite">
+                </label>
+                
+                <input type="radio" name="pokemon" id="squirtle" />
+                <label class="tarjeta-de-pokemon" for="squirtle">
+                    <p>Squirtle</p>
+                    <img src="./assets/pokemons_pokemon_squirtle_attack.png" alt="Squirtle">
+                </label>
+
+                <input type="radio" name="pokemon" id="bulbasaur" />
+                <label class="tarjeta-de-pokemon" for="bulbasaur">
+                    <p>Bulbasaur</p>
+                    <img src="./assets/pokemons_pokemon_bulbasaur_attack.png" alt="Bulbasaur">
+                </label>
+
+                                <input type="radio" name="pokemon" id="chien-pao" />
+                <label class="tarjeta-de-pokemon" for="chien-pao">
+                    <p>Chien-Pao</p>
+                    <img src="./assets/Chien-pao.png" alt="Chien-Pao">
+                </label>
+
+                                <input type="radio" name="pokemon" id="arcanine" />
+                <label class="tarjeta-de-pokemon" for="arcanine">
+                    <p>Arcanine</p>
+                    <img src="./assets/arcanine.png" alt="Arcanine">
+                </label>
+            </div>
+
+            <button id="boton-pokemon">Seleccionar</button>
+        </section>
+
+        <section id="seleccionar-ataque">
+            <h1 class="titulo">Pokemon</h1>
+
+            <h2 class="subtitulo">Elige tu ataque:</h2>
+
+            <div class="tarjetas-ataques">
+                <button id="boton-fuego" class="boton-de-ataque">Fuego 🔥</button>
+                <button id="boton-agua" class="boton-de-ataque">Agua 💧</button>
+                <button id="boton-tierra" class="boton-de-ataque">Tierra 🌱</button>
+                <button id="boton-hielo" class="boton-de-ataque">Hielo 🧊</button>
+            </div>
+
+            <div id="mensajes">
+                <p id="resultado">Mucha suerte</p>
+
+                <section id="reiniciar">
+                    <button id="boton-reiniciar">Reiniciar</button>
+                </section>
+            </div>
+
+            <div class="ataques">
+                <div class="ataques-jugador">
+                    <p id="vidas-jugador">3</p>
+                    <p id="pokemon-jugador"></p>
+                    <div id="ataques-del-jugador"></div>
+                </div>
+                <div class="ataques-enemigo">
+                    <p id="vidas-enemigo">3</p>
+                    <p id="pokemon-enemigo"></p>
+                    <div id="ataques-del-enemigo"></div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
